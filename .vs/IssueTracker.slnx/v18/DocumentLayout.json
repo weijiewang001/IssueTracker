@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\issuetracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\issuetracker.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\issues\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\issues\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\issues\\issuestatusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\issues\\issuestatusextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\issues\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\issues\\issuestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\common\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\common\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|c:\\users\\wayne\\desktop\\project\\issuetracker\\src\\issuetracker.domain\\issues\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA256B8-9547-C75C-E95C-B60AF7907BEB}|src\\IssueTracker.Domain\\IssueTracker.Domain.csproj|solutionrelative:src\\issuetracker.domain\\issues\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\Issue.cs",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\Issues\\Issue.cs",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\Issue.cs",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\Issues\\Issue.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:57:26.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IssueStatusExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\IssueStatusExtensions.cs",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\Issues\\IssueStatusExtensions.cs",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\IssueStatusExtensions.cs",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\Issues\\IssueStatusExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:43:07.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IssueStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\IssueStatus.cs",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\Issues\\IssueStatus.cs",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\IssueStatus.cs",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\Issues\\IssueStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:39:26.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Common\\DomainException.cs",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\Common\\DomainException.cs",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Common\\DomainException.cs",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\Common\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:37:59.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\Priority.cs",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\Issues\\Priority.cs",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\Issues\\Priority.cs",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\Issues\\Priority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T11:36:42.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IssueTracker.Domain",
+              "DocumentMoniker": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\IssueTracker.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\IssueTracker.Domain\\IssueTracker.Domain.csproj",
+              "ToolTip": "C:\\Users\\Wayne\\Desktop\\Project\\IssueTracker\\src\\IssueTracker.Domain\\IssueTracker.Domain.csproj",
+              "RelativeToolTip": "src\\IssueTracker.Domain\\IssueTracker.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-26T11:35:07.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
