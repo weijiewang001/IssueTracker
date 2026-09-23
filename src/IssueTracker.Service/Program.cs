@@ -1,5 +1,7 @@
 
 using IssueTracker.Service.Data;
+using IssueTracker.Service.Endpoints;
+using IssueTracker.Service.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,10 +12,14 @@ var connectionString = builder.Configuration.GetConnectionString("IssueTrackerDb
 
 builder.Services.AddDbContext<IssueTrackerDbContext>(options => options.UseSqlServer(connectionString));
 
+builder.Services.AddScoped<IIssueRepository, IssueRepository>();
+
 var app = builder.Build();
 
 app.MapGet("/health", () => Results.Ok(new { status = "ok" }))
     .WithTags("Diagnostics");
+
+app.MapIssueEndpoints();
 
 
 using (var scope  = app.Services.CreateScope())
@@ -23,3 +29,5 @@ using (var scope  = app.Services.CreateScope())
     await context.Database.MigrateAsync();
 }
 app.Run();
+
+public partial class Program;

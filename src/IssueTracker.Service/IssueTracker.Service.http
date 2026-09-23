@@ -1,0 +1,47 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@host = https://localhost:7260
+
+### Health check
+GET {{host}}/health
+
+### Create an issue
+POST {{host}}/api/issues
+Content-Type: application/json
+
+{
+  "title": "First issue",
+  "description": "Smoke testing the API end to end",
+  "priority": 1,
+  "reportedBy": "filip"
+}
+
+### List issues
+GET {{host}}/api/issues
+
+### Get one issue
+GET {{host}}/api/issues/1
+
+### Update the issue
+PUT {{host}}/api/issues/1
+Content-Type: application/json
+
+{
+  "title": "First issue (renamed)",
+  "description": "Updated description",
+  "priority": 2
+}
+
+### Start the issue
+POST {{host}}/api/issues/2/start
+Content-Type: application/json
+
+{
+  "assignee": "filip"
+}
+
+### Close the issue
+POST {{host}}/api/issues/1/close
+
+### Delete the issue
+DELETE {{host}}/api/issues/1

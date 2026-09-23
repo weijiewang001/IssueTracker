@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IssueTracker.Domain\IssueTracker.Domain.csproj" />
+    <ProjectReference Include="..\IssueTracker.Contracts\IssueTracker.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
