@@ -20,4 +20,8 @@
     <ProjectReference Include="..\IssueTracker.Contracts\IssueTracker.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <InternalsVisibleTo Include="IssueTracker.IntegrationTests" />
+  </ItemGroup>
+
 </Project>

@@ -20,4 +20,10 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\IssueTracker.Service\IssueTracker.Service.csproj" />
+    <ProjectReference Include="..\..\src\IssueTracker.Contracts\IssueTracker.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\IssueTracker.Domain\IssueTracker.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
