@@ -1,4 +1,5 @@
 ﻿using IssueTracker.Contracts;
+using IssueTracker.Domain.Common;
 using IssueTracker.Domain.Issues;
 using IssueTracker.Service.Repositories;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -9,7 +10,9 @@ namespace IssueTracker.Service.Endpoints
     {
         public static IEndpointRouteBuilder MapIssueEndpoints(this IEndpointRouteBuilder routes)
         {
-            var group = routes.MapGroup("/api/issues").WithTags("Issues");
+            var group = routes.MapGroup("/api/issues")
+                .WithTags("Issues")
+                .AddEndpointFilter(HandleDomainExceptions);
 
             group.MapGet("/", ListIssues);
             group.MapGet("/{id:int}", GetIssue).WithName("GetIssue");
@@ -22,6 +25,24 @@ namespace IssueTracker.Service.Endpoints
             group.MapPost("/{id:int}/close", CloseIssue);
 
             return routes;
+        }
+
+        // A broken domain rule (empty title, closing a closed issue, ...) is the caller's mistake:
+        // answer 400 instead of 500, so clients don't treat it as a transient server error and retry.
+        private static async ValueTask<object?> HandleDomainExceptions(
+            EndpointFilterInvocationContext context, EndpointFilterDelegate next)
+        {
+            try
+            {
+                return await next(context);
+            }
+            catch (DomainException ex)
+            {
+                return TypedResults.Problem(
+                    title: "The request breaks an issue rule.",
+                    detail: ex.Message,
+                    statusCode: StatusCodes.Status400BadRequest);
+            }
         }
 
         private static async Task<Ok<IReadOnlyList<IssueSummaryResponse>>> ListIssues(

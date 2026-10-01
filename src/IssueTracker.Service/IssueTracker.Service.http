@@ -12,7 +12,7 @@ Content-Type: application/json
 {
   "title": "First issue",
   "description": "Smoke testing the API end to end",
-  "priority": 1,
+  "priority": 6,
   "reportedBy": "filip"
 }
 
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 
 ### Start the issue
-POST {{host}}/api/issues/2/start
+POST {{host}}/api/issues/3/start
 Content-Type: application/json
 
 {
@@ -44,4 +44,4 @@ Content-Type: application/json
 POST {{host}}/api/issues/1/close
 
 ### Delete the issue
-DELETE {{host}}/api/issues/1
+DELETE {{host}}/api/issues/9

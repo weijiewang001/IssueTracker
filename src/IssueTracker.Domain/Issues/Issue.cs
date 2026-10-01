@@ -19,7 +19,18 @@ namespace IssueTracker.Domain.Issues
         } = string.Empty;
         public string Description { get; private set; } = string.Empty;
         public IssueStatus Status { get; private set; }
-        public Priority Priority { get; private set; }
+        public Priority Priority
+        {
+            get;
+            private set
+            {
+                if (!Enum.IsDefined(value))
+                {
+                    throw new DomainException($"Unknown priority {(int)value}");
+                }
+                field = value;
+            }
+        }
         public string ReportedBy { get; private set; } = string.Empty;
         public string? AssignedTo { get; private set; }
         public DateTimeOffset CreatedAt { get; private set; }
