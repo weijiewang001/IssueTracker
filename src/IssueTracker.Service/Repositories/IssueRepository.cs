@@ -20,5 +20,5 @@ public class IssueRepository(IssueTrackerDbContext context) : IIssueRepository
     public void Remove(Issue issue) => context.Issues.Remove(issue);
 
     public async Task<int> SaveChangesAsync(CancellationToken cancellationToken) =>
-        await context.SaveChangesAsync();
+        await context.SaveChangesAsync(cancellationToken);
 }
